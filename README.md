@@ -33,4 +33,3 @@ To ensure a mathematically sound interpretation of the historical time series, a
 ## 🛠️ Tech Stack & Software Environments
 The modeling, diagnostic testing, and baseline comparisons were executed using the following programming environments:
 * **Python** (`Pandas`, `Statsmodels`, `Arch Library`, `Matplotlib`, `SciPy`)
-* **R Language** (`rugarch` — utilized for cross-environment cross-validation and benchmarking numerical optimization algorithms).
