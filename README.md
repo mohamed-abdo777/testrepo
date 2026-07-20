@@ -34,4 +34,4 @@ To ensure a mathematically sound interpretation of the historical time series, a
 
 ##  Tech Stack & Software Environments
 The modeling, diagnostic testing, and baseline comparisons were executed using the following programming environments:
-* **Python** (`Pandas`, `Statsmodels`, `Arch Library`, `pmdarima`, `Matplotlib`, `SciPy`)
+* **Python** (`Pandas`, `Numpy`, `Statsmodels`, `Arch Library`, `pmdarima`, `Matplotlib`, `SciPy`)
