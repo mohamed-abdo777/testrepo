@@ -1,7 +1,7 @@
 # Time Series Analysis: Modeling Stock Return Volatility for ADX and BAX Markets (2018–2023)
 
 ## 1.  Executive Summary
-This repository contains two projects dedicated to modeling and analyzing the conditional volatility of stock returns for the Abu Dhabi Securities Exchange (**ADX**) and the Buenos Aires Stock Exchange (**BAX**). The analysis covers the period from January 2, 2018, to December 31, 2023, utilizing daily log returns calculated from historical market data. 
+This README focuses on two projects dedicated to modeling and analyzing the conditional volatility of stock returns for the Abu Dhabi Securities Exchange (**ADX**) and the Buenos Aires Stock Exchange (**BAX**). The analysis covers the period from January 2, 2018, to December 31, 2023, utilizing daily log returns calculated from historical market data. 
 
 To capture complex financial phenomena, a suite of advanced conditional heteroskedasticity models was deployed, including **GARCH**, **EGARCH**, and **TGARCH**. Based on strict information criteria and rigorous diagnostic testing, the **EGARCH** model emerged as the most efficient and robust framework for both markets. The model demonstrated high statistical significance across all core structural parameters and successfully captured the **Leverage Effect**, revealing that negative market shocks (bad news) exert a significantly stronger impact on conditional variance than positive shocks of equal magnitude.
 
