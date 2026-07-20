@@ -6,6 +6,8 @@ This repository contains two projects dedicated to modeling and analyzing the co
 To capture complex financial phenomena, a suite of advanced conditional heteroskedasticity models was deployed, including **GARCH**, **EGARCH**, and **TGARCH**. Based on strict information criteria and rigorous diagnostic testing, the **EGARCH** model emerged as the most efficient and robust framework for both markets. The model demonstrated high statistical significance across all core structural parameters and successfully captured the **Leverage Effect**, revealing that negative market shocks (bad news) exert a significantly stronger impact on conditional variance than positive shocks of equal magnitude.
 
 > 📌 **Methodological Note:** Instead of focusing on standard directional price forecasting, these projects emphasize **structural, diagnostic, and explanatory analysis**. The core objective is to map out the mathematical components of market risk, test variance stability, and understand the long-memory properties of volatility clusters during periods of macroeconomic stress.
+> 
+> **Additionally,** a baseline ARIMA model was initially fitted to evaluate the mean process, and its residuals were tested using the ARCH-LM test to confirm significant heteroskedasticity. Following the failure of ARIMA to handle volatility dynamics, standalone GARCH, EGARCH, and TGARCH models were applied directly to the daily returns.
 
 ---
 
@@ -32,4 +34,4 @@ To ensure a mathematically sound interpretation of the historical time series, a
 
 ## 🛠️ Tech Stack & Software Environments
 The modeling, diagnostic testing, and baseline comparisons were executed using the following programming environments:
-* **Python** (`Pandas`, `Statsmodels`, `Arch Library`, `Matplotlib`, `SciPy`)
+* **Python** (`Pandas`, `Statsmodels`, `Arch Library`, `pmdarima`, `Matplotlib`, `SciPy`)
